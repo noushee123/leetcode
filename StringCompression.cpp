@@ -9,18 +9,18 @@ int compress(vector<char>& chars){
     char curr_char = chars[i];
     int count = 0;
     
-    while(i<n && char[i]==curr_char){
+    while(i<n && chars[i]==curr_char){
         count++;
         i++;
         }
         
-    int char[index] = curr_char;
+    int chars[index] = curr_char;
     index++;
     
     if(count>1){
      string count_str = to_string(count);
-      for(char &ch: count_str){
-          char[index]=ch;
+      for(chars &ch: count_str){
+          chars[index]=ch;
           index++;
            }
         }
