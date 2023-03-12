@@ -19,7 +19,7 @@ int compress(vector<char>& chars){
     
     if(count>1){
      string count_str = to_string(count);
-      for(chars &ch: count_str){
+      for(char &ch: count_str){
           chars[index]=ch;
           index++;
            }
