@@ -1,0 +1,13 @@
+class solution{
+public:
+int findDuplicate(vector<int>& nums){
+vector<bool> occured(n);
+if(occured[nums[i]]){
+     return nums[i];
+   }
+ else {
+      occured[nums[i]]=true;
+      }
+   return 0;
+   }
+}
